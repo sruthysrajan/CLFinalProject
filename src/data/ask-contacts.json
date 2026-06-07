@@ -1,0 +1,79 @@
+[
+  {
+    "id": "university_international_office",
+    "title": "University international office",
+    "description": "Ask about immigration support, arrival services, introduction week, and institution-specific requirements.",
+    "contactUrl": "https://www.studyinnl.org/contact-details",
+    "tags": ["university", "immigration", "arrival"]
+  },
+  {
+    "id": "university_housing_office",
+    "title": "University housing office",
+    "description": "Ask whether your institution has reserved rooms, approved partners, warning lists, or emergency housing advice.",
+    "contactUrl": "https://www.studyinnl.org/plan-your-stay/finding-a-place-to-live",
+    "tags": ["housing"]
+  },
+  {
+    "id": "municipality",
+    "title": "Your municipality",
+    "description": "Ask about BRP registration, accepted documents, correspondence address options, and appointment availability.",
+    "contactUrl": "https://www.government.nl/faq/what-do-i-need-to-arrange-if-im-moving-to-the-netherlands",
+    "tags": ["municipality", "bsn", "registration"]
+  },
+  {
+    "id": "ind",
+    "title": "IND",
+    "description": "Ask about MVV, residence permits, collection letters, biometrics, and residence-card status.",
+    "contactUrl": "https://ind.nl/en/contact",
+    "tags": ["visa", "residence-permit"]
+  },
+  {
+    "id": "digid_helpdesk",
+    "title": "DigiD helpdesk",
+    "description": "Ask about applying, activating, receiving activation letters, and account access problems.",
+    "contactUrl": "https://www.digid.nl/en/contact/",
+    "tags": ["digid", "digital-identity"]
+  },
+  {
+    "id": "health_insurer",
+    "title": "Health insurer or insurance adviser",
+    "description": "Ask which insurance applies to your study, work, internship, or EHIC situation before buying coverage.",
+    "contactUrl": "https://www.studyinnl.org/plan-your-stay/healthcare-insurance",
+    "tags": ["healthcare", "insurance"]
+  },
+  {
+    "id": "gp_practice",
+    "title": "Nearby GP practice",
+    "description": "Ask whether the practice accepts new patients in your postcode and how registration works.",
+    "contactUrl": "https://h4i.nl/healthcare-providers/general-practitioner-huisarts/finding-and-registering-with-a-gp/",
+    "tags": ["healthcare", "gp"]
+  },
+  {
+    "id": "student_services",
+    "title": "Student services",
+    "description": "Ask about arrival help, wellbeing support, study advisers, emergency contacts, and practical campus services.",
+    "contactUrl": "https://www.studyinnl.org/contact-details",
+    "tags": ["university", "wellbeing", "arrival"]
+  },
+  {
+    "id": "public_transport_operator",
+    "title": "Public transport operator or 9292",
+    "description": "Ask about route planning, payment options, disruptions, accessibility, and local transport subscriptions.",
+    "contactUrl": "https://9292.nl/en/",
+    "tags": ["transport"]
+  },
+  {
+    "id": "telecom_provider",
+    "title": "Telecom provider",
+    "description": "Ask about prepaid SIMs, subscriptions, number portability, EU roaming, eSIM support, and contract terms.",
+    "contactUrl": "https://consument.acm.nl/telefoon-internet-en-televisie/internationaal-bellen-en-internetten/hoeveel-betaal-ik-voor-mobiel-bellen-en-internetten-een-ander-eu-land",
+    "tags": ["phone"]
+  },
+  {
+    "id": "bank_provider",
+    "title": "Bank or payment provider",
+    "description": "Ask which documents are needed for an account and whether you can start before receiving your BSN.",
+    "contactUrl": "https://www.betaalvereniging.nl/en/knowledge-base/iban-and-bic/ibans/?noredirect=en-GB",
+    "tags": ["banking", "money"]
+  }
+]

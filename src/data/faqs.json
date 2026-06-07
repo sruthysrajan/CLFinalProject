@@ -1,0 +1,82 @@
+[
+  {
+    "id": "faq_no_housing",
+    "question": "Can I travel without confirmed housing?",
+    "answer": "Avoid travelling without a realistic place to stay. Short-term accommodation can be expensive and does not always solve municipality registration.",
+    "relatedTaskIds": ["housing_sos", "plan_arrival"],
+    "relatedTopicIds": ["housing"],
+    "tags": ["housing", "accommodation", "arrival", "registration"]
+  },
+  {
+    "id": "faq_need_mvv",
+    "question": "Do all international students need an MVV or residence permit?",
+    "answer": "No. It depends on nationality, length of stay, and study situation. Non-EU/EEA/Swiss students usually need university immigration guidance.",
+    "relatedTaskIds": ["visa_residence_permit"],
+    "relatedTopicIds": ["visa_residence"],
+    "tags": ["visa", "residence permit", "mvv", "immigration", "non eu"]
+  },
+  {
+    "id": "faq_documents_legalized",
+    "question": "Which documents should I legalise before departure?",
+    "answer": "Common examples include birth certificates and civil status documents, but the exact list depends on your municipality, university, and immigration route.",
+    "relatedTaskIds": ["prepare_documents", "municipality_registration"],
+    "relatedTopicIds": ["documents", "municipality_bsn_digid"],
+    "tags": ["documents", "legalisation", "municipality", "birth certificate"]
+  },
+  {
+    "id": "faq_bsn_no_address",
+    "question": "Can I get a BSN without a permanent address?",
+    "answer": "For stays over 4 months you usually register with the municipality at your home address. Ask the municipality about correspondence-address options if your situation is unresolved.",
+    "relatedTaskIds": ["municipality_registration", "bsn"],
+    "relatedTopicIds": ["municipality_bsn_digid", "housing"],
+    "tags": ["bsn", "address", "municipality", "registration", "housing"]
+  },
+  {
+    "id": "faq_bank_without_bsn",
+    "question": "Can I open a bank account before I have a BSN?",
+    "answer": "Some banks may let you start the process with ID and address details, but requirements differ and you may need to provide your BSN later.",
+    "relatedTaskIds": ["money_bank_account", "bsn"],
+    "relatedTopicIds": ["money_banking", "municipality_bsn_digid"],
+    "tags": ["bank", "banking", "money", "bsn", "iban"]
+  },
+  {
+    "id": "faq_health_insurance_work",
+    "question": "Does working or doing an internship change my insurance requirement?",
+    "answer": "It can. Check current rules before starting work or an internship, because Dutch public health insurance eligibility depends on your situation.",
+    "relatedTaskIds": ["health_insurance"],
+    "relatedTopicIds": ["healthcare_gp"],
+    "tags": ["insurance", "health insurance", "work", "internship", "healthcare"]
+  },
+  {
+    "id": "faq_find_gp",
+    "question": "Why should I register with a GP before I am ill?",
+    "answer": "For non-urgent care and referrals, the GP is usually your first point of contact. Practices can be full, so registration may take time.",
+    "relatedTaskIds": ["gp_registration"],
+    "relatedTopicIds": ["healthcare_gp"],
+    "tags": ["gp", "huisarts", "doctor", "healthcare", "registration"]
+  },
+  {
+    "id": "faq_digid_activation",
+    "question": "Why do I need a DigiD?",
+    "answer": "DigiD is used to identify yourself online with Dutch public services and many healthcare or education services.",
+    "relatedTaskIds": ["digid"],
+    "relatedTopicIds": ["municipality_bsn_digid"],
+    "tags": ["digid", "bsn", "online services", "public services"]
+  },
+  {
+    "id": "faq_transport_payment",
+    "question": "Can I use a bank card for public transport?",
+    "answer": "OVpay supports checking in and out with a contactless payment card or phone in many public transport situations. Always check the current options for your route.",
+    "relatedTaskIds": ["transport_bike_daily_life", "money_bank_account"],
+    "relatedTopicIds": ["transport_daily_life", "money_banking"],
+    "tags": ["transport", "ovpay", "bank card", "payment", "travel"]
+  },
+  {
+    "id": "faq_phone_number",
+    "question": "Do I need a Dutch phone number?",
+    "answer": "It is not always legally required, but it helps with appointments, banking, delivery, two-factor authentication, and being called back in urgent situations.",
+    "relatedTaskIds": ["dutch_phone_number", "digid"],
+    "relatedTopicIds": ["transport_daily_life", "municipality_bsn_digid"],
+    "tags": ["phone", "sim", "appointments", "banking", "two factor"]
+  }
+]

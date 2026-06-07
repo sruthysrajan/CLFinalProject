@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">NL First 100 app icon</title>
+  <desc id="desc">A teal square app icon with the letters NL and a small route marker.</desc>
+  <rect width="512" height="512" rx="112" fill="#0f766e"/>
+  <path fill="#ffffff" d="M128 150h54l104 158V150h58v236h-54L186 228v158h-58V150Z"/>
+  <path fill="#ccfbf1" d="M365 150h60v184h78v52H365V150Z"/>
+  <circle cx="365" cy="122" r="34" fill="#fef3c7"/>
+</svg>

@@ -1,0 +1,122 @@
+[
+  {
+    "id": "study_housing",
+    "title": "Study in NL: Finding a place to live",
+    "url": "https://www.studyinnl.org/plan-your-stay/finding-a-place-to-live",
+    "lastChecked": "2026-06-07"
+  },
+  {
+    "id": "gov_rented_housing",
+    "title": "Government.nl: Rented housing",
+    "url": "https://www.government.nl/topics/housing/rented-housing",
+    "lastChecked": "2026-06-07"
+  },
+  {
+    "id": "ind_study",
+    "title": "IND: Study residence permits",
+    "url": "https://ind.nl/en/residence-permits/study",
+    "lastChecked": "2026-06-07"
+  },
+  {
+    "id": "ind_mvv",
+    "title": "IND: Provisional residence permit (MVV)",
+    "url": "https://ind.nl/en/provisional-residence-permit-mvv",
+    "lastChecked": "2026-06-07"
+  },
+  {
+    "id": "ind_required_amounts",
+    "title": "IND: Required amounts for study residence permits",
+    "url": "https://ind.nl/en/required-amounts-income-requirements",
+    "lastChecked": "2026-06-07"
+  },
+  {
+    "id": "study_legalising_documents",
+    "title": "Study in NL: Legalising your documents",
+    "url": "https://www.studyinnl.org/plan-your-stay/legalising-your-documents",
+    "lastChecked": "2026-06-07"
+  },
+  {
+    "id": "gov_legalising_foreign_documents",
+    "title": "Government.nl: Legalising a foreign document for use in the Netherlands",
+    "url": "https://www.government.nl/themes/justice-security-and-defence/identification-documents/certificates-and-official-documents/legalising-a-foreign-document-for-use-in-the-netherlands",
+    "lastChecked": "2026-06-07"
+  },
+  {
+    "id": "gov_moving_netherlands",
+    "title": "Government.nl: What to arrange when moving to the Netherlands",
+    "url": "https://www.government.nl/faq/what-do-i-need-to-arrange-if-im-moving-to-the-netherlands",
+    "lastChecked": "2026-06-07"
+  },
+  {
+    "id": "gov_brp_registration",
+    "title": "Government.nl: Register with the Personal Records Database",
+    "url": "https://www.government.nl/documents/questions-and-answers/when-should-i-register-with-the-personal-records-database-as-a-resident",
+    "lastChecked": "2026-06-07"
+  },
+  {
+    "id": "gov_bsn",
+    "title": "Government.nl: Citizen service number (BSN)",
+    "url": "https://www.government.nl/topics/personal-data/citizen-service-number-bsn",
+    "lastChecked": "2026-06-07"
+  },
+  {
+    "id": "digid_apply",
+    "title": "DigiD: Apply for a DigiD",
+    "url": "https://www.digid.nl/en/apply-and-activate/apply-digid/",
+    "lastChecked": "2026-06-07"
+  },
+  {
+    "id": "study_healthcare_insurance",
+    "title": "Study in NL: Healthcare insurance",
+    "url": "https://www.studyinnl.org/plan-your-stay/healthcare-insurance",
+    "lastChecked": "2026-06-07"
+  },
+  {
+    "id": "gov_health_insurance",
+    "title": "Government.nl: Standard health insurance",
+    "url": "https://www.government.nl/topics/health-insurance/standard-health-insurance",
+    "lastChecked": "2026-06-07"
+  },
+  {
+    "id": "study_dutch_healthcare",
+    "title": "Study in NL: Dutch healthcare",
+    "url": "https://www.studyinnl.org/life-in-holland/dutch-healthcare",
+    "lastChecked": "2026-06-07"
+  },
+  {
+    "id": "h4i_gp_registration",
+    "title": "Healthcare for Internationals: Finding and registering with a GP",
+    "url": "https://h4i.nl/healthcare-providers/general-practitioner-huisarts/finding-and-registering-with-a-gp/",
+    "lastChecked": "2026-06-07"
+  },
+  {
+    "id": "gov_112_mobile",
+    "title": "Government.nl: Calling 112 from a mobile phone",
+    "url": "https://www.government.nl/faq/will-the-operator-immediately-see-my-number-and-location-if-i-call-from-my-mobile",
+    "lastChecked": "2026-06-07"
+  },
+  {
+    "id": "ovpay",
+    "title": "OVpay: Public transport check-in with payment card",
+    "url": "https://www.ovpay.nl/",
+    "lastChecked": "2026-06-07"
+  },
+  {
+    "id": "nine_two_nine_two_public_transport",
+    "title": "9292: Public transport in the Netherlands",
+    "url": "https://9292.nl/en/public-transport/",
+    "lastChecked": "2026-06-07"
+  },
+  {
+    "id": "acm_mobile_roaming",
+    "title": "ACM ConsuWijzer: Mobile calling and internet in the EU",
+    "url": "https://consument.acm.nl/telefoon-internet-en-televisie/internationaal-bellen-en-internetten/hoeveel-betaal-ik-voor-mobiel-bellen-en-internetten-een-ander-eu-land",
+    "lastChecked": "2026-06-07"
+  },
+  {
+    "id": "dutch_payments_iban",
+    "title": "Dutch Payments Association: IBANs",
+    "url": "https://www.betaalvereniging.nl/en/knowledge-base/iban-and-bic/ibans/?noredirect=en-GB",
+    "lastChecked": "2026-06-07"
+  }
+]

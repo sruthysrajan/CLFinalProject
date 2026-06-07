@@ -1,0 +1,348 @@
+[
+  {
+    "id": "housing_sos",
+    "title": "Secure housing or make a backup plan",
+    "category": "housing",
+    "phase": "before_arrival",
+    "basePriority": 100,
+    "summary": "Confirm where you will sleep for your first weeks and avoid risky last-minute housing decisions.",
+    "appliesToLabel": "Everyone, especially students without confirmed accommodation",
+    "whatThisIs": "A practical checkpoint for finding housing, checking contract basics, and preparing a fallback if permanent housing is not ready.",
+    "whyItMatters": "Housing shortages can affect registration, budget, wellbeing, and the ability to start your studies calmly.",
+    "nextSteps": [
+      "Ask your institution which housing options or warning lists they provide.",
+      "Verify the landlord, address, contract terms, deposit, and payment method before transferring money.",
+      "Book temporary accommodation only as a short bridge, not as a full housing strategy."
+    ],
+    "officialSourceIds": ["study_housing", "gov_rented_housing"],
+    "studentTipIds": ["tip_start_housing_early"],
+    "askContactIds": ["university_housing_office", "student_services"],
+    "relatedTaskIds": ["plan_arrival", "municipality_registration"],
+    "relatedTopicIds": ["housing"],
+    "faqIds": ["faq_no_housing", "faq_bsn_no_address"],
+    "tags": ["housing", "rent", "before-arrival"],
+    "rules": [
+      {
+        "id": "housing_missing_high_priority",
+        "label": "No confirmed housing",
+        "conditions": [
+          {
+            "field": "hasHousing",
+            "equals": false
+          }
+        ],
+        "priorityAdjustment": 40,
+        "reason": "Without housing, several arrival and registration steps become harder."
+      }
+    ]
+  },
+  {
+    "id": "visa_residence_permit",
+    "title": "Check visa and residence permit steps",
+    "category": "immigration",
+    "phase": "before_arrival",
+    "basePriority": 95,
+    "summary": "Understand whether you need an MVV, residence permit, biometrics appointment, or permit pickup.",
+    "appliesToLabel": "Mainly non-EU/EEA/Swiss students",
+    "whatThisIs": "A check of your immigration route and the university or IND steps attached to it.",
+    "whyItMatters": "Missing immigration deadlines can delay travel, enrolment, or legal residence.",
+    "nextSteps": [
+      "Follow the immigration instructions from your university or recognised sponsor.",
+      "Check whether an MVV is needed before travel.",
+      "Save IND messages, payment proof, and permit collection instructions."
+    ],
+    "officialSourceIds": ["ind_study", "ind_mvv", "ind_required_amounts"],
+    "studentTipIds": ["tip_keep_ind_letters", "tip_document_folder"],
+    "askContactIds": ["university_international_office", "ind"],
+    "relatedTaskIds": ["prepare_documents", "plan_arrival"],
+    "relatedTopicIds": ["visa_residence", "documents"],
+    "faqIds": ["faq_need_mvv", "faq_documents_legalized"],
+    "tags": ["visa", "mvv", "residence-permit"],
+    "rules": [
+      {
+        "id": "non_eu_immigration_priority",
+        "label": "Non-EU/EEA/Swiss student",
+        "conditions": [
+          {
+            "field": "nationalityGroup",
+            "equals": "non_eu_eea_swiss"
+          }
+        ],
+        "priorityAdjustment": 35,
+        "reason": "Non-EU/EEA/Swiss students commonly have additional immigration steps."
+      }
+    ]
+  },
+  {
+    "id": "prepare_documents",
+    "title": "Prepare important documents",
+    "category": "documents",
+    "phase": "before_arrival",
+    "basePriority": 90,
+    "summary": "Collect, scan, print, and legalise documents you may need for immigration, university, housing, and registration.",
+    "appliesToLabel": "Everyone",
+    "whatThisIs": "A document folder for identity, admission, housing, insurance, finances, and civil-status records.",
+    "whyItMatters": "Some documents are difficult to replace or legalise after leaving your home country.",
+    "nextSteps": [
+      "Check university, IND, and municipality document lists.",
+      "Arrange legalisation, apostille, or translation where required.",
+      "Store scans securely and bring printed copies for appointments."
+    ],
+    "officialSourceIds": ["study_legalising_documents", "gov_legalising_foreign_documents"],
+    "studentTipIds": ["tip_document_folder"],
+    "askContactIds": ["university_international_office", "municipality"],
+    "relatedTaskIds": ["visa_residence_permit", "municipality_registration"],
+    "relatedTopicIds": ["documents", "visa_residence", "municipality_bsn_digid"],
+    "faqIds": ["faq_documents_legalized"],
+    "tags": ["documents", "legalisation", "before-arrival"]
+  },
+  {
+    "id": "plan_arrival",
+    "title": "Plan your arrival day",
+    "category": "arrival",
+    "phase": "before_arrival",
+    "basePriority": 78,
+    "summary": "Prepare travel, first-night access, key pickup, temporary money, and transport from the station or airport.",
+    "appliesToLabel": "Everyone",
+    "whatThisIs": "A first-day logistics plan that covers where you go, who you contact, and how you pay if something is delayed.",
+    "whyItMatters": "The first day is easier when you do not need to solve luggage, keys, groceries, and transport at the same time.",
+    "nextSteps": [
+      "Save your address, key pickup instructions, and emergency contacts offline.",
+      "Plan public transport from your arrival point and a backup option.",
+      "Keep payment cards, some emergency cash, and essential documents in hand luggage."
+    ],
+    "officialSourceIds": ["gov_moving_netherlands", "nine_two_nine_two_public_transport"],
+    "studentTipIds": ["tip_arrival_buffer"],
+    "askContactIds": ["student_services", "public_transport_operator"],
+    "relatedTaskIds": ["housing_sos", "transport_bike_daily_life"],
+    "relatedTopicIds": ["housing", "transport_daily_life"],
+    "faqIds": ["faq_no_housing", "faq_transport_payment"],
+    "tags": ["arrival", "travel", "planning"]
+  },
+  {
+    "id": "municipality_registration",
+    "title": "Register with the municipality",
+    "category": "registration",
+    "phase": "arrival_week",
+    "basePriority": 96,
+    "summary": "Book and attend your BRP registration appointment if you will live in the Netherlands long enough to register as a resident.",
+    "appliesToLabel": "Students staying longer than 4 months",
+    "whatThisIs": "Municipality registration records your address in the Personal Records Database and starts the BSN process.",
+    "whyItMatters": "Registration is tied to your BSN, government letters, healthcare, and many practical services.",
+    "nextSteps": [
+      "Book a municipality appointment as early as possible.",
+      "Bring accepted identity, address, and civil-status documents.",
+      "Ask the municipality what to do if your housing situation changes."
+    ],
+    "officialSourceIds": ["gov_moving_netherlands", "gov_brp_registration"],
+    "studentTipIds": ["tip_book_registration", "tip_document_folder"],
+    "askContactIds": ["municipality", "student_services"],
+    "relatedTaskIds": ["bsn", "digid", "prepare_documents"],
+    "relatedTopicIds": ["municipality_bsn_digid", "documents", "housing"],
+    "faqIds": ["faq_bsn_no_address", "faq_documents_legalized"],
+    "tags": ["municipality", "brp", "registration"]
+  },
+  {
+    "id": "bsn",
+    "title": "Get and store your BSN",
+    "category": "registration",
+    "phase": "arrival_week",
+    "basePriority": 88,
+    "summary": "Receive your citizen service number and keep it private but accessible for official processes.",
+    "appliesToLabel": "Students who register in the Netherlands",
+    "whatThisIs": "The BSN is your personal number for dealings with Dutch public services and some regulated organisations.",
+    "whyItMatters": "You may need your BSN for healthcare, work, taxes, banking follow-up, and DigiD.",
+    "nextSteps": [
+      "Check how and when your municipality provides the BSN.",
+      "Store the number securely and avoid sharing it casually.",
+      "Use it to continue dependent steps such as DigiD or bank account completion."
+    ],
+    "officialSourceIds": ["gov_bsn", "gov_brp_registration"],
+    "studentTipIds": ["tip_book_registration"],
+    "askContactIds": ["municipality"],
+    "relatedTaskIds": ["municipality_registration", "digid", "money_bank_account"],
+    "relatedTopicIds": ["municipality_bsn_digid", "money_banking"],
+    "faqIds": ["faq_bsn_no_address", "faq_bank_without_bsn"],
+    "tags": ["bsn", "registration", "identity"]
+  },
+  {
+    "id": "money_bank_account",
+    "title": "Arrange banking and payment access",
+    "category": "money",
+    "phase": "first_month",
+    "basePriority": 82,
+    "summary": "Make sure you can pay rent, groceries, transport, subscriptions, and receive refunds or wages.",
+    "appliesToLabel": "Everyone, especially students staying for a full degree",
+    "whatThisIs": "A setup task for IBAN, debit card, mobile payments, and backup payment methods.",
+    "whyItMatters": "Some Dutch payments and subscriptions are easier with an IBAN and local payment method.",
+    "nextSteps": [
+      "Compare banks or payment providers and check document requirements.",
+      "Keep a backup card while your Dutch account or card is pending.",
+      "Update rent, university, employer, and refund details after your account is ready."
+    ],
+    "officialSourceIds": ["dutch_payments_iban", "gov_moving_netherlands", "ovpay"],
+    "studentTipIds": ["tip_bank_bsn"],
+    "askContactIds": ["bank_provider", "student_services"],
+    "relatedTaskIds": ["bsn", "transport_bike_daily_life"],
+    "relatedTopicIds": ["money_banking", "transport_daily_life"],
+    "faqIds": ["faq_bank_without_bsn", "faq_transport_payment"],
+    "tags": ["money", "banking", "iban"],
+    "rules": [
+      {
+        "id": "no_bank_account_priority",
+        "label": "No Dutch bank account",
+        "conditions": [
+          {
+            "field": "hasDutchBankAccount",
+            "equals": false
+          }
+        ],
+        "priorityAdjustment": 10,
+        "reason": "Local payment access can reduce friction with rent, refunds, and transport."
+      }
+    ]
+  },
+  {
+    "id": "dutch_phone_number",
+    "title": "Set up reliable phone access",
+    "category": "phone",
+    "phase": "arrival_week",
+    "basePriority": 72,
+    "summary": "Make sure you can be reached for housing, appointments, deliveries, banking, and two-factor authentication.",
+    "appliesToLabel": "Everyone",
+    "whatThisIs": "A practical task for choosing roaming, prepaid SIM, eSIM, or subscription options.",
+    "whyItMatters": "Many services assume you can receive SMS, app notifications, or callback calls.",
+    "nextSteps": [
+      "Check whether your current plan has fair and affordable EU roaming.",
+      "Compare prepaid, eSIM, and subscription options before signing a contract.",
+      "Update important accounts with a number you can reliably access."
+    ],
+    "officialSourceIds": ["acm_mobile_roaming", "gov_112_mobile"],
+    "studentTipIds": ["tip_phone_2fa"],
+    "askContactIds": ["telecom_provider", "student_services"],
+    "relatedTaskIds": ["digid", "plan_arrival"],
+    "relatedTopicIds": ["transport_daily_life", "municipality_bsn_digid"],
+    "faqIds": ["faq_phone_number", "faq_digid_activation"],
+    "tags": ["phone", "sim", "2fa"],
+    "rules": [
+      {
+        "id": "missing_phone_priority",
+        "label": "No reliable Dutch phone number",
+        "conditions": [
+          {
+            "field": "hasDutchPhoneNumber",
+            "equals": false
+          }
+        ],
+        "priorityAdjustment": 8,
+        "reason": "Reliable phone access helps with appointments and account verification."
+      }
+    ]
+  },
+  {
+    "id": "health_insurance",
+    "title": "Confirm the right health insurance",
+    "category": "healthcare",
+    "phase": "before_arrival",
+    "basePriority": 92,
+    "summary": "Check whether you need home-country, private student, EHIC, or Dutch basic health insurance.",
+    "appliesToLabel": "Everyone; rules differ for study, work, and internships",
+    "whatThisIs": "An insurance decision based on what you do in the Netherlands, not only where you are from.",
+    "whyItMatters": "Wrong or missing coverage can create large costs and official follow-up letters.",
+    "nextSteps": [
+      "Read student-specific insurance guidance before buying coverage.",
+      "Check again before starting a job or internship.",
+      "Save insurance policy documents and emergency numbers."
+    ],
+    "officialSourceIds": ["study_healthcare_insurance", "gov_health_insurance"],
+    "studentTipIds": ["tip_document_folder", "tip_gp_nearby"],
+    "askContactIds": ["health_insurer", "student_services"],
+    "relatedTaskIds": ["gp_registration", "bsn"],
+    "relatedTopicIds": ["healthcare_gp"],
+    "faqIds": ["faq_health_insurance_work", "faq_find_gp"],
+    "tags": ["healthcare", "insurance", "before-arrival"]
+  },
+  {
+    "id": "gp_registration",
+    "title": "Register with a GP",
+    "category": "healthcare",
+    "phase": "first_month",
+    "basePriority": 76,
+    "summary": "Find a general practitioner near your address for non-urgent care, prescriptions, and referrals.",
+    "appliesToLabel": "Students with a stable address in the Netherlands",
+    "whatThisIs": "A healthcare access task for choosing and registering with a local GP practice.",
+    "whyItMatters": "The GP is usually your first contact for non-urgent medical care and specialist referrals.",
+    "nextSteps": [
+      "Search for GP practices near your postcode.",
+      "Ask whether they accept new patients and what documents they need.",
+      "Save out-of-hours and emergency instructions after registration."
+    ],
+    "officialSourceIds": ["study_dutch_healthcare", "h4i_gp_registration"],
+    "studentTipIds": ["tip_gp_nearby"],
+    "askContactIds": ["gp_practice", "health_insurer"],
+    "relatedTaskIds": ["health_insurance", "bsn"],
+    "relatedTopicIds": ["healthcare_gp"],
+    "faqIds": ["faq_find_gp", "faq_health_insurance_work"],
+    "tags": ["gp", "healthcare", "huisarts"]
+  },
+  {
+    "id": "digid",
+    "title": "Apply for DigiD",
+    "category": "digital_identity",
+    "phase": "first_month",
+    "basePriority": 80,
+    "summary": "Set up DigiD after you have a BSN and registered address so you can access Dutch online services.",
+    "appliesToLabel": "Students with a BSN",
+    "whatThisIs": "A digital identity setup task for government, healthcare, and other public-service logins.",
+    "whyItMatters": "Without DigiD, many official online tasks take longer or require alternative access routes.",
+    "nextSteps": [
+      "Apply after your municipality registration and BSN are ready.",
+      "Watch for the activation letter at your registered address.",
+      "Activate DigiD before the activation code expires."
+    ],
+    "officialSourceIds": ["digid_apply", "gov_bsn"],
+    "studentTipIds": ["tip_phone_2fa"],
+    "askContactIds": ["digid_helpdesk", "municipality"],
+    "relatedTaskIds": ["bsn", "municipality_registration", "dutch_phone_number"],
+    "relatedTopicIds": ["municipality_bsn_digid"],
+    "faqIds": ["faq_digid_activation", "faq_phone_number"],
+    "tags": ["digid", "bsn", "digital-identity"],
+    "rules": [
+      {
+        "id": "has_bsn_digid_priority",
+        "label": "BSN received",
+        "conditions": [
+          {
+            "field": "hasBsn",
+            "equals": true
+          }
+        ],
+        "priorityAdjustment": 12,
+        "reason": "DigiD becomes actionable once the BSN and registered address are available."
+      }
+    ]
+  },
+  {
+    "id": "transport_bike_daily_life",
+    "title": "Set up transport and daily-life basics",
+    "category": "transport",
+    "phase": "arrival_week",
+    "basePriority": 74,
+    "summary": "Plan how you will move around by public transport, bike, and walking during the first weeks.",
+    "appliesToLabel": "Everyone",
+    "whatThisIs": "A mobility setup task for route planning, public transport payment, bike basics, and daily errands.",
+    "whyItMatters": "Reliable transport affects registration appointments, classes, groceries, healthcare, and social life.",
+    "nextSteps": [
+      "Install a public transport planner and test routes to campus and the municipality.",
+      "Check whether OVpay, tickets, or an OV-chipkaart fits your situation.",
+      "If cycling, budget for a lock, lights, rain gear, and repair costs."
+    ],
+    "officialSourceIds": ["nine_two_nine_two_public_transport", "ovpay"],
+    "studentTipIds": ["tip_bike_rain", "tip_arrival_buffer"],
+    "askContactIds": ["public_transport_operator", "student_services"],
+    "relatedTaskIds": ["plan_arrival", "money_bank_account", "dutch_phone_number"],
+    "relatedTopicIds": ["transport_daily_life", "money_banking"],
+    "faqIds": ["faq_transport_payment", "faq_phone_number"],
+    "tags": ["transport", "bike", "daily-life"]
+  }
+]

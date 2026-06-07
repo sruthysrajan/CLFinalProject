@@ -1,0 +1,18 @@
+{
+  "name": "NL First 100",
+  "short_name": "NL First 100",
+  "description": "Mobile-first onboarding guide for international students in the Netherlands",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#fbfcf8",
+  "theme_color": "#0f766e",
+  "icons": [
+    {
+      "src": "/icons/app-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+[
+  {
+    "id": "tip_start_housing_early",
+    "title": "Start housing before everything else",
+    "body": "Treat housing as the critical path. Save screenshots, emails, and payment proof before sending money.",
+    "tags": ["housing", "before-arrival"]
+  },
+  {
+    "id": "tip_document_folder",
+    "title": "Keep one document folder",
+    "body": "Carry scans and printed copies of your passport, admission letter, birth certificate, housing contract, and insurance documents.",
+    "tags": ["documents", "arrival"]
+  },
+  {
+    "id": "tip_book_registration",
+    "title": "Book municipality registration early",
+    "body": "Municipality appointment slots can fill quickly around intake weeks, so book as soon as your address and arrival date are clear.",
+    "tags": ["municipality", "bsn"]
+  },
+  {
+    "id": "tip_keep_ind_letters",
+    "title": "Keep IND messages together",
+    "body": "Save IND letters and university immigration emails in one place because you may need them when collecting your permit.",
+    "tags": ["visa", "residence-permit"]
+  },
+  {
+    "id": "tip_bank_bsn",
+    "title": "Ask banks what they need",
+    "body": "Requirements differ by bank. Some let you start online, but many still ask for ID, address details, and a BSN later.",
+    "tags": ["banking", "bsn"]
+  },
+  {
+    "id": "tip_phone_2fa",
+    "title": "Set up a reachable phone number",
+    "body": "A Dutch or reliable EU phone number helps with two-factor authentication, deliveries, housing viewings, and government letters.",
+    "tags": ["phone", "digital-identity"]
+  },
+  {
+    "id": "tip_gp_nearby",
+    "title": "Look for a GP near your address",
+    "body": "GP practices often register patients only inside their service area, so search around your postcode first.",
+    "tags": ["healthcare", "gp"]
+  },
+  {
+    "id": "tip_bike_rain",
+    "title": "Budget for wet-weather commuting",
+    "body": "A lock, lights, rain gear, and basic repairs are part of daily bike life, not extras.",
+    "tags": ["transport", "bike"]
+  },
+  {
+    "id": "tip_arrival_buffer",
+    "title": "Leave buffer time on arrival day",
+    "body": "Plan your first day around delays, luggage, key pickup, groceries, and finding your room rather than appointments.",
+    "tags": ["arrival", "planning"]
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "id": "housing",
+    "title": "Housing",
+    "summary": "Find a realistic place to stay and understand rental basics before arrival.",
+    "body": "Housing is the most time-sensitive part of settling in. Start early, check whether your university has reserved rooms or vetted partners, and be careful with deposits, identity documents, and contracts.",
+    "relatedTaskIds": ["housing_sos", "plan_arrival", "municipality_registration"],
+    "officialSourceIds": ["study_housing", "gov_rented_housing"],
+    "studentTipIds": ["tip_start_housing_early", "tip_book_registration"],
+    "askContactIds": ["university_housing_office", "student_services", "municipality"],
+    "faqIds": ["faq_no_housing", "faq_bsn_no_address"],
+    "tags": ["housing", "rent", "arrival"]
+  },
+  {
+    "id": "visa_residence",
+    "title": "Visa and residence",
+    "summary": "Understand whether you need an MVV, residence permit, biometrics, or permit pickup.",
+    "body": "Immigration steps depend on nationality and study programme. Your university is often the recognised sponsor for study permits, so follow its deadlines and keep IND messages together.",
+    "relatedTaskIds": ["visa_residence_permit", "prepare_documents", "plan_arrival"],
+    "officialSourceIds": ["ind_study", "ind_mvv", "ind_required_amounts"],
+    "studentTipIds": ["tip_keep_ind_letters", "tip_document_folder"],
+    "askContactIds": ["university_international_office", "ind"],
+    "faqIds": ["faq_need_mvv", "faq_documents_legalized"],
+    "tags": ["visa", "mvv", "residence-permit"]
+  },
+  {
+    "id": "documents",
+    "title": "Documents",
+    "summary": "Prepare identification, admission, housing, insurance, and legalised documents.",
+    "body": "Documents are easier to fix before departure than after arrival. Make a digital and paper folder and check whether any civil documents need legalisation, apostille, or translation.",
+    "relatedTaskIds": ["prepare_documents", "visa_residence_permit", "municipality_registration"],
+    "officialSourceIds": ["study_legalising_documents", "gov_legalising_foreign_documents"],
+    "studentTipIds": ["tip_document_folder"],
+    "askContactIds": ["university_international_office", "municipality"],
+    "faqIds": ["faq_documents_legalized"],
+    "tags": ["documents", "legalisation", "registration"]
+  },
+  {
+    "id": "municipality_bsn_digid",
+    "title": "Municipality, BSN, and DigiD",
+    "summary": "Register with the municipality, receive your BSN, and set up DigiD.",
+    "body": "For longer stays, municipality registration enters you in the BRP and gives you a BSN. After that, DigiD becomes important for online government, healthcare, and education services.",
+    "relatedTaskIds": ["municipality_registration", "bsn", "digid", "prepare_documents"],
+    "officialSourceIds": ["gov_moving_netherlands", "gov_brp_registration", "gov_bsn", "digid_apply"],
+    "studentTipIds": ["tip_book_registration", "tip_document_folder", "tip_phone_2fa"],
+    "askContactIds": ["municipality", "digid_helpdesk", "student_services"],
+    "faqIds": ["faq_bsn_no_address", "faq_digid_activation", "faq_phone_number"],
+    "tags": ["municipality", "bsn", "digid"]
+  },
+  {
+    "id": "money_banking",
+    "title": "Money and banking",
+    "summary": "Plan access to money, understand IBANs, and arrange payment methods.",
+    "body": "A Dutch or European bank account can make rent, salary, refunds, and subscriptions easier. Keep backup payment options until your local setup works.",
+    "relatedTaskIds": ["money_bank_account", "bsn", "transport_bike_daily_life"],
+    "officialSourceIds": ["dutch_payments_iban", "gov_moving_netherlands", "ovpay"],
+    "studentTipIds": ["tip_bank_bsn", "tip_arrival_buffer"],
+    "askContactIds": ["bank_provider", "student_services"],
+    "faqIds": ["faq_bank_without_bsn", "faq_transport_payment"],
+    "tags": ["money", "banking", "iban"]
+  },
+  {
+    "id": "healthcare_gp",
+    "title": "Healthcare and GP",
+    "summary": "Choose the right insurance and know how to access non-urgent care.",
+    "body": "Health insurance rules depend on whether you only study, work, or do an internship. For non-urgent care, register with a GP near your address once you know where you live.",
+    "relatedTaskIds": ["health_insurance", "gp_registration", "bsn"],
+    "officialSourceIds": ["study_healthcare_insurance", "gov_health_insurance", "study_dutch_healthcare", "h4i_gp_registration"],
+    "studentTipIds": ["tip_gp_nearby", "tip_document_folder"],
+    "askContactIds": ["health_insurer", "gp_practice", "student_services"],
+    "faqIds": ["faq_health_insurance_work", "faq_find_gp"],
+    "tags": ["healthcare", "insurance", "gp"]
+  },
+  {
+    "id": "transport_daily_life",
+    "title": "Transport and daily life",
+    "summary": "Set up practical mobility, phone access, and daily-life basics.",
+    "body": "Public transport, biking, phone access, and backup payment options make the first weeks easier. Check routes before appointments and budget for bike essentials if you plan to cycle.",
+    "relatedTaskIds": ["transport_bike_daily_life", "dutch_phone_number", "money_bank_account", "plan_arrival"],
+    "officialSourceIds": ["nine_two_nine_two_public_transport", "ovpay", "acm_mobile_roaming", "gov_112_mobile"],
+    "studentTipIds": ["tip_bike_rain", "tip_phone_2fa", "tip_arrival_buffer"],
+    "askContactIds": ["public_transport_operator", "telecom_provider", "student_services"],
+    "faqIds": ["faq_transport_payment", "faq_phone_number"],
+    "tags": ["transport", "phone", "daily-life"]
+  }
+]
